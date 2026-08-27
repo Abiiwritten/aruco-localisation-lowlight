@@ -1,0 +1,49 @@
+# aruco_localisation parameters
+# =============================
+# Load with: node.declare_parameters + node.get_parameter, or pass as a
+# ROS2 parameter YAML file to each node via the launch file.
+
+detector:
+  ros__parameters:
+    image_topic: "/image_raw"
+    camera_frame: "camera_link"
+    marker_frame_prefix: "aruco_marker"
+    aruco_dictionary: "DICT_4X4_50"     # cv2.aruco predefined dictionary name
+    marker_length_m: 0.10               # marker side length in metres
+    publish_annotated_image: true
+    detection_flag: "SOLVEPNP_IPPE_SQUARE"
+
+    # Camera calibration (replace with your own calibrateCamera() results).
+    # 3x3 camera matrix, row-major.
+    camera_matrix:
+      [600.0, 0.0, 320.0,
+       0.0, 600.0, 240.0,
+       0.0, 0.0, 1.0]
+    # Plumb-bob distortion coefficients [k1, k2, p1, p2, k3]
+    distortion_coefficients: [0.0, 0.0, 0.0, 0.0, 0.0]
+
+tf_publisher:
+  ros__parameters:
+    pose_topic: "/aruco/pose"
+    parent_frame: "camera_link"
+    child_frame: "aruco_marker"
+
+optitrack_transform:
+  ros__parameters:
+    aruco_pose_topic: "/aruco/pose"
+    optitrack_pose_topic: "/vrpn_mocap/rigidbody1/pose"
+    world_frame: "world"
+    camera_frame: "camera_link"
+
+    # B_T_M: static rigid-body-to-marker transform, measured by hand
+    # (translation in metres, rotation as quaternion [x, y, z, w]).
+    rigid_body_to_marker:
+      translation: [0.0, 0.0, 0.0]
+      rotation_xyzw: [0.0, 0.0, 0.0, 1.0]
+
+    # Number of synchronized pose pairs to average over when solving
+    # for the camera-to-OptiTrack calibration transform (step 11).
+    calibration_samples: 30
+
+    # Where to persist the solved C_T_O once calibration is complete.
+    calibration_output_path: "config/camera_to_optitrack.yaml"
