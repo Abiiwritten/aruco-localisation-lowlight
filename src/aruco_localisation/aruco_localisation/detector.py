@@ -52,9 +52,9 @@ class ArucoDetectorNode(Node):
         if dictionary_id is None:
             self.get_logger().error(
                 f"Unknown ArUco dictionary '{self.dictionary_name}', "
-                f"falling back to DICT_4X4_50."
+                f"falling back to DICT_6X6_50."
             )
-            dictionary_id = cv2.aruco.DICT_4X4_50
+            dictionary_id = cv2.aruco.DICT_6X6_50
         self.aruco_dictionary = cv2.aruco.getPredefinedDictionary(dictionary_id)
         self.aruco_params = cv2.aruco.DetectorParameters()
         self.aruco_detector = cv2.aruco.ArucoDetector(
@@ -101,15 +101,18 @@ class ArucoDetectorNode(Node):
         self.declare_parameter('image_topic', '/image_raw')
         self.declare_parameter('camera_frame', 'camera_link')
         self.declare_parameter('marker_frame_prefix', 'aruco_marker')
-        self.declare_parameter('aruco_dictionary', 'DICT_4X4_50')
+        self.declare_parameter('aruco_dictionary', 'DICT_6X6_50')        
         self.declare_parameter('marker_length_m', 0.10)
         self.declare_parameter('publish_annotated_image', True)
         self.declare_parameter('detection_flag', 'SOLVEPNP_IPPE_SQUARE')
-        self.declare_parameter(
-            'camera_matrix',
-            [600.0, 0.0, 320.0, 0.0, 600.0, 240.0, 0.0, 0.0, 1.0])
-        self.declare_parameter(
-            'distortion_coefficients', [0.0, 0.0, 0.0, 0.0, 0.0])
+        self.declare_parameter('camera_matrix',
+            [386.2490539550781, 0.0, 325.697021484375,
+            0.0, 385.8675537109375, 247.0854034423828,
+            0.0, 0.0, 1.0])
+        self.declare_parameter('distortion_coefficients',
+            [-0.054759636521339417, 0.06454092264175415,
+            -0.0003352328494656831, 0.0011062893318012357,
+            -0.02064184844493866])
 
     def _load_parameters(self):
         self.image_topic = self.get_parameter(

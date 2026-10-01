@@ -5,22 +5,24 @@
 
 detector:
   ros__parameters:
-    image_topic: "/image_raw"
+    image_topic: "/camera/camera/color/image_raw"
     camera_frame: "camera_link"
     marker_frame_prefix: "aruco_marker"
-    aruco_dictionary: "DICT_4X4_50"     # cv2.aruco predefined dictionary name
-    marker_length_m: 0.10               # marker side length in metres
+    aruco_dictionary: "DICT_6X6_50"     # cv2.aruco predefined dictionary name
+    marker_length_m: 0.20               # marker side length in metres
     publish_annotated_image: true
     detection_flag: "SOLVEPNP_IPPE_SQUARE"
 
     # Camera calibration (replace with your own calibrateCamera() results).
     # 3x3 camera matrix, row-major.
     camera_matrix:
-      [600.0, 0.0, 320.0,
-       0.0, 600.0, 240.0,
-       0.0, 0.0, 1.0]
+      [386.2490539550781, 0.0, 325.697021484375,
+     0.0, 385.8675537109375, 247.0854034423828,
+     0.0, 0.0, 1.0]
     # Plumb-bob distortion coefficients [k1, k2, p1, p2, k3]
-    distortion_coefficients: [0.0, 0.0, 0.0, 0.0, 0.0]
+    distortion_coefficients: [-0.054759636521339417, 0.06454092264175415,
+     -0.0003352328494656831, 0.0011062893318012357,
+     -0.02064184844493866]
 
 tf_publisher:
   ros__parameters:

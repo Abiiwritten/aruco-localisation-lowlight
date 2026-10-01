@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: aruco-localisation
+Version: 0.1.0
+Summary: ROS2 ArUco marker detection, pose estimation, TF broadcasting, and OptiTrack-based extrinsic calibration for localisation.
+Home-page: UNKNOWN
+Maintainer: Abhinav
+Maintainer-email: you@example.com
+License: Apache-2.0
+Platform: UNKNOWN
+
+UNKNOWN
+
