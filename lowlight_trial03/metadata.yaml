@@ -2,35 +2,35 @@ rosbag2_bagfile_information:
   version: 5
   storage_identifier: sqlite3
   duration:
-    nanoseconds: 37892869881
+    nanoseconds: 10892538280
   starting_time:
-    nanoseconds_since_epoch: 1790834315993223816
-  message_count: 44246
+    nanoseconds_since_epoch: 1790835327263062350
+  message_count: 12701
   topics_with_message_count:
     - topic_metadata:
         name: /aruco/detected_frames
         type: std_msgs/msg/Int32
         serialization_format: cdr
         offered_qos_profiles: "- history: 3\n  depth: 0\n  reliability: 1\n  durability: 2\n  deadline:\n    sec: 9223372036\n    nsec: 854775807\n  lifespan:\n    sec: 9223372036\n    nsec: 854775807\n  liveliness: 1\n  liveliness_lease_duration:\n    sec: 9223372036\n    nsec: 854775807\n  avoid_ros_namespace_conventions: false"
-      message_count: 1119
+      message_count: 318
     - topic_metadata:
         name: /aruco/total_frames
         type: std_msgs/msg/Int32
         serialization_format: cdr
         offered_qos_profiles: "- history: 3\n  depth: 0\n  reliability: 1\n  durability: 2\n  deadline:\n    sec: 9223372036\n    nsec: 854775807\n  lifespan:\n    sec: 9223372036\n    nsec: 854775807\n  liveliness: 1\n  liveliness_lease_duration:\n    sec: 9223372036\n    nsec: 854775807\n  avoid_ros_namespace_conventions: false"
-      message_count: 1119
+      message_count: 318
     - topic_metadata:
         name: /aruco/id
         type: std_msgs/msg/Int32
         serialization_format: cdr
         offered_qos_profiles: "- history: 3\n  depth: 0\n  reliability: 1\n  durability: 2\n  deadline:\n    sec: 9223372036\n    nsec: 854775807\n  lifespan:\n    sec: 9223372036\n    nsec: 854775807\n  liveliness: 1\n  liveliness_lease_duration:\n    sec: 9223372036\n    nsec: 854775807\n  avoid_ros_namespace_conventions: false"
-      message_count: 1120
+      message_count: 318
     - topic_metadata:
         name: /aruco/pose
         type: geometry_msgs/msg/PoseStamped
         serialization_format: cdr
         offered_qos_profiles: "- history: 3\n  depth: 0\n  reliability: 1\n  durability: 2\n  deadline:\n    sec: 9223372036\n    nsec: 854775807\n  lifespan:\n    sec: 9223372036\n    nsec: 854775807\n  liveliness: 1\n  liveliness_lease_duration:\n    sec: 9223372036\n    nsec: 854775807\n  avoid_ros_namespace_conventions: false"
-      message_count: 1120
+      message_count: 318
     - topic_metadata:
         name: /tf_static
         type: tf2_msgs/msg/TFMessage
@@ -42,45 +42,45 @@ rosbag2_bagfile_information:
         type: geometry_msgs/msg/PoseStamped
         serialization_format: cdr
         offered_qos_profiles: "- history: 3\n  depth: 0\n  reliability: 2\n  durability: 2\n  deadline:\n    sec: 9223372036\n    nsec: 854775807\n  lifespan:\n    sec: 9223372036\n    nsec: 854775807\n  liveliness: 1\n  liveliness_lease_duration:\n    sec: 9223372036\n    nsec: 854775807\n  avoid_ros_namespace_conventions: false"
-      message_count: 4549
+      message_count: 1308
     - topic_metadata:
         name: /aruco/pose_optitrack
         type: geometry_msgs/msg/PoseStamped
         serialization_format: cdr
         offered_qos_profiles: "- history: 3\n  depth: 0\n  reliability: 1\n  durability: 2\n  deadline:\n    sec: 9223372036\n    nsec: 854775807\n  lifespan:\n    sec: 9223372036\n    nsec: 854775807\n  liveliness: 1\n  liveliness_lease_duration:\n    sec: 9223372036\n    nsec: 854775807\n  avoid_ros_namespace_conventions: false"
-      message_count: 1120
+      message_count: 318
     - topic_metadata:
         name: /vrpn_mocap/camera_rigidbody/pose
         type: geometry_msgs/msg/PoseStamped
         serialization_format: cdr
         offered_qos_profiles: "- history: 3\n  depth: 0\n  reliability: 2\n  durability: 2\n  deadline:\n    sec: 9223372036\n    nsec: 854775807\n  lifespan:\n    sec: 9223372036\n    nsec: 854775807\n  liveliness: 1\n  liveliness_lease_duration:\n    sec: 9223372036\n    nsec: 854775807\n  avoid_ros_namespace_conventions: false"
-      message_count: 4550
+      message_count: 1309
     - topic_metadata:
         name: /optitrack/camera_optical_pose
         type: geometry_msgs/msg/PoseStamped
         serialization_format: cdr
         offered_qos_profiles: "- history: 3\n  depth: 0\n  reliability: 1\n  durability: 2\n  deadline:\n    sec: 9223372036\n    nsec: 854775807\n  lifespan:\n    sec: 9223372036\n    nsec: 854775807\n  liveliness: 1\n  liveliness_lease_duration:\n    sec: 9223372036\n    nsec: 854775807\n  avoid_ros_namespace_conventions: false"
-      message_count: 4550
+      message_count: 1309
     - topic_metadata:
         name: /optitrack/marker_pose
         type: geometry_msgs/msg/PoseStamped
         serialization_format: cdr
         offered_qos_profiles: "- history: 3\n  depth: 0\n  reliability: 1\n  durability: 2\n  deadline:\n    sec: 9223372036\n    nsec: 854775807\n  lifespan:\n    sec: 9223372036\n    nsec: 854775807\n  liveliness: 1\n  liveliness_lease_duration:\n    sec: 9223372036\n    nsec: 854775807\n  avoid_ros_namespace_conventions: false"
-      message_count: 4551
+      message_count: 1309
     - topic_metadata:
         name: /tf
         type: tf2_msgs/msg/TFMessage
         serialization_format: cdr
         offered_qos_profiles: "- history: 3\n  depth: 0\n  reliability: 1\n  durability: 2\n  deadline:\n    sec: 9223372036\n    nsec: 854775807\n  lifespan:\n    sec: 9223372036\n    nsec: 854775807\n  liveliness: 1\n  liveliness_lease_duration:\n    sec: 9223372036\n    nsec: 854775807\n  avoid_ros_namespace_conventions: false\n- history: 3\n  depth: 0\n  reliability: 1\n  durability: 2\n  deadline:\n    sec: 9223372036\n    nsec: 854775807\n  lifespan:\n    sec: 9223372036\n    nsec: 854775807\n  liveliness: 1\n  liveliness_lease_duration:\n    sec: 9223372036\n    nsec: 854775807\n  avoid_ros_namespace_conventions: false"
-      message_count: 20446
+      message_count: 5874
   compression_format: ""
   compression_mode: ""
   relative_file_paths:
-    - lowlight_trial02_0.db3
+    - lowlight_trial03_0.db3
   files:
-    - path: lowlight_trial02_0.db3
+    - path: lowlight_trial03_0.db3
       starting_time:
-        nanoseconds_since_epoch: 1790834315993223816
+        nanoseconds_since_epoch: 1790835327263062350
       duration:
-        nanoseconds: 37892869881
-      message_count: 44246
+        nanoseconds: 10892538280
+      message_count: 12701
