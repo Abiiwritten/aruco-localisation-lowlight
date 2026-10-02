@@ -1,0 +1,6 @@
+ros2 bag record -o lowlight_trial02   /tf /tf_static   /aruco/pose   /aruco/pose_optitrack   /aruco/id   /aruco/total_frames   /aruco/detected_frames   /optitrack/marker_pose   /optitrack/camera_optical_pose   /vrpn_mocap/camera_rigidbody/pose   /vrpn_mocap/rigidbody1/pose
+
+
+colcon build --symlink-install --packages-select aruco_localisation
+source install/setup.bash
+ros2 launch aruco_localisation aruco_localisation.launch.py

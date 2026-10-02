@@ -1,0 +1,133 @@
+[0.124s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install', '--packages-select', 'aruco_localisation']
+[0.124s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['aruco_localisation'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x70391e83f2e0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x70391e9b09a0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x70391e9b09a0>>, mixin_verb=('build',))
+[0.341s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.341s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.341s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.341s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.341s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.341s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.341s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/fontan/aruco-localisation-lowlight/aruco-localisation-lowlight'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_localisation) by extensions ['ignore', 'ignore_ament_install']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_localisation) by extension 'ignore'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_localisation) by extension 'ignore_ament_install'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_localisation) by extensions ['colcon_pkg']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_localisation) by extension 'colcon_pkg'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_localisation) by extensions ['colcon_meta']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_localisation) by extension 'colcon_meta'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_localisation) by extensions ['ros']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_localisation) by extension 'ros'
+[0.390s] DEBUG:colcon.colcon_core.package_identification:Package 'src/aruco_localisation' with type 'ros.ament_python' and name 'aruco_localisation'
+[0.390s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.390s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.390s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.390s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.390s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.411s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.411s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.413s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/fontan/aruco-localisation-lowlight/aruco-localisation-lowlight/install
+[0.413s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/fontan/localisation_ws/install
+[0.414s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/fontan/ros2_ws/install
+[0.415s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 279 installed packages in /opt/ros/humble
+[0.417s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'aruco_localisation' build argument 'cmake_args' from command line to 'None'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'aruco_localisation' build argument 'cmake_target' from command line to 'None'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'aruco_localisation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'aruco_localisation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'aruco_localisation' build argument 'cmake_clean_first' from command line to 'False'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'aruco_localisation' build argument 'cmake_force_configure' from command line to 'False'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'aruco_localisation' build argument 'ament_cmake_args' from command line to 'None'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'aruco_localisation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'aruco_localisation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.458s] DEBUG:colcon.colcon_core.verb:Building package 'aruco_localisation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fontan/aruco-localisation-lowlight/aruco-localisation-lowlight/build/aruco_localisation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fontan/aruco-localisation-lowlight/aruco-localisation-lowlight/install/aruco_localisation', 'merge_install': False, 'path': '/home/fontan/aruco-localisation-lowlight/aruco-localisation-lowlight/src/aruco_localisation', 'symlink_install': True, 'test_result_base': None}
+[0.458s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.459s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.460s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/fontan/aruco-localisation-lowlight/aruco-localisation-lowlight/src/aruco_localisation' with build type 'ament_python'
+[0.460s] Level 1:colcon.colcon_core.shell:create_environment_hook('aruco_localisation', 'ament_prefix_path')
+[0.462s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.463s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fontan/aruco-localisation-lowlight/aruco-localisation-lowlight/install/aruco_localisation/share/aruco_localisation/hook/ament_prefix_path.ps1'
+[0.463s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fontan/aruco-localisation-lowlight/aruco-localisation-lowlight/install/aruco_localisation/share/aruco_localisation/hook/ament_prefix_path.dsv'
+[0.464s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fontan/aruco-localisation-lowlight/aruco-localisation-lowlight/install/aruco_localisation/share/aruco_localisation/hook/ament_prefix_path.sh'
+[0.465s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.465s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.847s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/fontan/aruco-localisation-lowlight/aruco-localisation-lowlight/src/aruco_localisation'
+[0.848s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.848s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.317s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fontan/aruco-localisation-lowlight/aruco-localisation-lowlight/build/aruco_localisation': PYTHONPATH=/home/fontan/aruco-localisation-lowlight/aruco-localisation-lowlight/build/aruco_localisation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fontan/aruco-localisation-lowlight/aruco-localisation-lowlight/install/aruco_localisation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/fontan/aruco-localisation-lowlight/aruco-localisation-lowlight/build/aruco_localisation/build --no-deps symlink_data
+[1.926s] Level 1:colcon.colcon_core.shell:create_environment_hook('aruco_localisation', 'pythonpath_develop')
+[1.926s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fontan/aruco-localisation-lowlight/aruco-localisation-lowlight/build/aruco_localisation/share/aruco_localisation/hook/pythonpath_develop.ps1'
+[1.927s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fontan/aruco-localisation-lowlight/aruco-localisation-lowlight/build/aruco_localisation' returned '0': PYTHONPATH=/home/fontan/aruco-localisation-lowlight/aruco-localisation-lowlight/build/aruco_localisation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fontan/aruco-localisation-lowlight/aruco-localisation-lowlight/install/aruco_localisation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/fontan/aruco-localisation-lowlight/aruco-localisation-lowlight/build/aruco_localisation/build --no-deps symlink_data
+[1.928s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fontan/aruco-localisation-lowlight/aruco-localisation-lowlight/build/aruco_localisation/share/aruco_localisation/hook/pythonpath_develop.dsv'
+[1.928s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fontan/aruco-localisation-lowlight/aruco-localisation-lowlight/build/aruco_localisation/share/aruco_localisation/hook/pythonpath_develop.sh'
+[1.932s] Level 1:colcon.colcon_core.environment:checking '/home/fontan/aruco-localisation-lowlight/aruco-localisation-lowlight/install/aruco_localisation' for CMake module files
+[1.933s] Level 1:colcon.colcon_core.environment:checking '/home/fontan/aruco-localisation-lowlight/aruco-localisation-lowlight/install/aruco_localisation' for CMake config files
+[1.934s] Level 1:colcon.colcon_core.environment:checking '/home/fontan/aruco-localisation-lowlight/aruco-localisation-lowlight/install/aruco_localisation/lib'
+[1.934s] Level 1:colcon.colcon_core.environment:checking '/home/fontan/aruco-localisation-lowlight/aruco-localisation-lowlight/install/aruco_localisation/bin'
+[1.934s] Level 1:colcon.colcon_core.environment:checking '/home/fontan/aruco-localisation-lowlight/aruco-localisation-lowlight/install/aruco_localisation/lib/pkgconfig/aruco_localisation.pc'
+[1.935s] Level 1:colcon.colcon_core.environment:checking '/home/fontan/aruco-localisation-lowlight/aruco-localisation-lowlight/install/aruco_localisation/lib/python3.10/site-packages'
+[1.935s] Level 1:colcon.colcon_core.shell:create_environment_hook('aruco_localisation', 'pythonpath')
+[1.935s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fontan/aruco-localisation-lowlight/aruco-localisation-lowlight/install/aruco_localisation/share/aruco_localisation/hook/pythonpath.ps1'
+[1.936s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fontan/aruco-localisation-lowlight/aruco-localisation-lowlight/install/aruco_localisation/share/aruco_localisation/hook/pythonpath.dsv'
+[1.936s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fontan/aruco-localisation-lowlight/aruco-localisation-lowlight/install/aruco_localisation/share/aruco_localisation/hook/pythonpath.sh'
+[1.937s] Level 1:colcon.colcon_core.environment:checking '/home/fontan/aruco-localisation-lowlight/aruco-localisation-lowlight/install/aruco_localisation/bin'
+[1.938s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aruco_localisation)
+[1.938s] INFO:colcon.colcon_core.shell:Creating package script '/home/fontan/aruco-localisation-lowlight/aruco-localisation-lowlight/install/aruco_localisation/share/aruco_localisation/package.ps1'
+[1.939s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fontan/aruco-localisation-lowlight/aruco-localisation-lowlight/install/aruco_localisation/share/aruco_localisation/package.dsv'
+[1.940s] INFO:colcon.colcon_core.shell:Creating package script '/home/fontan/aruco-localisation-lowlight/aruco-localisation-lowlight/install/aruco_localisation/share/aruco_localisation/package.sh'
+[1.941s] INFO:colcon.colcon_core.shell:Creating package script '/home/fontan/aruco-localisation-lowlight/aruco-localisation-lowlight/install/aruco_localisation/share/aruco_localisation/package.bash'
+[1.942s] INFO:colcon.colcon_core.shell:Creating package script '/home/fontan/aruco-localisation-lowlight/aruco-localisation-lowlight/install/aruco_localisation/share/aruco_localisation/package.zsh'
+[1.943s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fontan/aruco-localisation-lowlight/aruco-localisation-lowlight/install/aruco_localisation/share/colcon-core/packages/aruco_localisation)
+[1.944s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.944s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.944s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.944s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.951s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.951s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.951s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.981s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.982s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/fontan/aruco-localisation-lowlight/aruco-localisation-lowlight/install/local_setup.ps1'
+[1.985s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/fontan/aruco-localisation-lowlight/aruco-localisation-lowlight/install/_local_setup_util_ps1.py'
+[1.988s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/fontan/aruco-localisation-lowlight/aruco-localisation-lowlight/install/setup.ps1'
+[1.991s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/fontan/aruco-localisation-lowlight/aruco-localisation-lowlight/install/local_setup.sh'
+[1.992s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/fontan/aruco-localisation-lowlight/aruco-localisation-lowlight/install/_local_setup_util_sh.py'
+[1.993s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/fontan/aruco-localisation-lowlight/aruco-localisation-lowlight/install/setup.sh'
+[1.996s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/fontan/aruco-localisation-lowlight/aruco-localisation-lowlight/install/local_setup.bash'
+[1.997s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/fontan/aruco-localisation-lowlight/aruco-localisation-lowlight/install/setup.bash'
+[1.999s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/fontan/aruco-localisation-lowlight/aruco-localisation-lowlight/install/local_setup.zsh'
+[1.999s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/fontan/aruco-localisation-lowlight/aruco-localisation-lowlight/install/setup.zsh'

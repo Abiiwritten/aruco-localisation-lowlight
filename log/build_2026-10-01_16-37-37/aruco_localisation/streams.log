@@ -1,0 +1,21 @@
+[0.755s] Invoking command in '/home/fontan/aruco-localisation-lowlight/aruco-localisation-lowlight/build/aruco_localisation': PYTHONPATH=/home/fontan/aruco-localisation-lowlight/aruco-localisation-lowlight/build/aruco_localisation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fontan/aruco-localisation-lowlight/aruco-localisation-lowlight/install/aruco_localisation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/fontan/aruco-localisation-lowlight/aruco-localisation-lowlight/build/aruco_localisation/build --no-deps symlink_data
+[1.039s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[1.039s]   warnings.warn(
+[1.068s] running develop
+[1.296s] running egg_info
+[1.297s] writing aruco_localisation.egg-info/PKG-INFO
+[1.297s] writing dependency_links to aruco_localisation.egg-info/dependency_links.txt
+[1.297s] writing entry points to aruco_localisation.egg-info/entry_points.txt
+[1.297s] writing requirements to aruco_localisation.egg-info/requires.txt
+[1.297s] writing top-level names to aruco_localisation.egg-info/top_level.txt
+[1.300s] reading manifest file 'aruco_localisation.egg-info/SOURCES.txt'
+[1.301s] writing manifest file 'aruco_localisation.egg-info/SOURCES.txt'
+[1.302s] running build_ext
+[1.302s] Creating /home/fontan/aruco-localisation-lowlight/aruco-localisation-lowlight/install/aruco_localisation/lib/python3.10/site-packages/aruco-localisation.egg-link (link to .)
+[1.303s] Installing detector script to /home/fontan/aruco-localisation-lowlight/aruco-localisation-lowlight/install/aruco_localisation/lib/aruco_localisation
+[1.304s] Installing optitrack_transform script to /home/fontan/aruco-localisation-lowlight/aruco-localisation-lowlight/install/aruco_localisation/lib/aruco_localisation
+[1.304s] Installing tf_publisher script to /home/fontan/aruco-localisation-lowlight/aruco-localisation-lowlight/install/aruco_localisation/lib/aruco_localisation
+[1.304s] 
+[1.304s] Installed /home/fontan/aruco-localisation-lowlight/aruco-localisation-lowlight/build/aruco_localisation
+[1.304s] running symlink_data
+[1.334s] Invoked command in '/home/fontan/aruco-localisation-lowlight/aruco-localisation-lowlight/build/aruco_localisation' returned '0': PYTHONPATH=/home/fontan/aruco-localisation-lowlight/aruco-localisation-lowlight/build/aruco_localisation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fontan/aruco-localisation-lowlight/aruco-localisation-lowlight/install/aruco_localisation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/fontan/aruco-localisation-lowlight/aruco-localisation-lowlight/build/aruco_localisation/build --no-deps symlink_data

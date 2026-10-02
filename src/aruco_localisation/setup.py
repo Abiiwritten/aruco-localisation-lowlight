@@ -32,6 +32,7 @@ setup(
             'detector = aruco_localisation.detector:main',
             'tf_publisher = aruco_localisation.tf_publisher:main',
             'optitrack_transform = aruco_localisation.optitrack_transform:main',
+            'marker_rigidbody_extrinsic_calibrator = aruco_localisation.marker_rigidbody_extrinsic_calibrator:main',
         ],
     },
 )

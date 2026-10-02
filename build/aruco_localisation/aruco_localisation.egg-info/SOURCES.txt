@@ -3,6 +3,7 @@ setup.cfg
 setup.py
 aruco_localisation/__init__.py
 aruco_localisation/detector.py
+aruco_localisation/marker_rigidbody_extrinsic_calibrator.py
 aruco_localisation/optitrack_transform.py
 aruco_localisation/tf_publisher.py
 aruco_localisation/utils.py
